@@ -4,6 +4,7 @@
   grid-template-columns: repeat(3, 20% 60% 20%);
   grid-template-rows: 1fr 2fr 1fr;
   justify-items: center;
+  overflow-y: hidden;
 }
 
 .box{
