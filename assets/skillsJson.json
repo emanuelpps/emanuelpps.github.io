@@ -1,0 +1,58 @@
+[
+    {
+        "language": "HTML 5",
+        "img": "./assets/html-5.png"
+    },
+    {
+        "language": "CSS 3",
+        "img": "./assets/css-3.png"
+    },
+    {
+        "language": "JavaScript",
+        "img": "./assets/js.png"
+    },
+    {
+        "language": "Sass",
+        "img": "./assets/sass.png"
+    },
+    {
+        "language": "Bootstrap",
+        "img": "./assets/bootstrap.png"
+    },
+    {
+        "language": "GIT",
+        "img": "./assets/git.png"
+    },
+    {
+        "language": "React JS",
+        "img": "./assets/react.png"
+    },
+    {
+        "language": "Firebase",
+        "img": "./assets/firebase.png"
+    },
+    {
+        "language": "Wordpress",
+        "img": "./assets/wordpress.png"
+    },
+    {
+        "language": "Redux",
+        "img": "./assets/redux.png"
+    },
+    {
+        "language": "MUI",
+        "img": "./assets/mui.png"
+    },
+    {
+        "language": "Framer Motion",
+        "img": "./assets/framericon.svg"
+    },
+    {
+        "language": "Node JS",
+        "img": "./assets/nodejs.png"
+    },
+    {
+        "language": "Mongo DB",
+        "img": "./assets/mongoDB.png"
+    }
+]
