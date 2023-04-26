@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #3f4e4f;
+}
+
+.container ul li a {
+  color: #dcd7c9;
+}
+.navBar-Icons {
+  width: 2rem;
+  margin: 0.5rem;
+}
+
+.button-container-social {
+    cursor: pointer;
+   }
+
+  @media screen and(max-width:950px) {
+    .container ul {
+      width: 100vw;
+    }
+  }

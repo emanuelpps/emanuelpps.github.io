@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  overflow-x: hidden;
+  background-image: url("../src/assets/images/image.webp") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.BackTopArrow,
+path {
+  box-shadow: none !important;
+  background-color: #a27b5c !important;
+  fill: white ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media screen and (max-width: 950px) {
+  body {
+    overflow-x: hidden;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 720px) {
+  body {
+    overflow-x: hidden;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
