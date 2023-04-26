@@ -5,6 +5,7 @@
   grid-template-rows: 1fr 2fr 1fr;
   justify-items: center;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .box{

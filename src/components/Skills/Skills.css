@@ -5,7 +5,7 @@
   background-color: #2c3639;
   display: grid;
   width: 100vw;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: repeat(auto-fit, minmax(10% 80% 10%, auto));
   grid-template-rows: 150px 2fr;
 }
 
