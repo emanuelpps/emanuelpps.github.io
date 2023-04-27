@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0cd0374.css",
+    "main.css": "/static/css/main.5649a63a.css",
     "main.js": "/static/js/main.bbcac29a.js",
     "static/js/787.992e299a.chunk.js": "/static/js/787.992e299a.chunk.js",
     "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.3fd2a0b512846e48bd1a.png",
@@ -10,12 +10,12 @@
     "static/media/airport_routes_app.png": "/static/media/airport_routes_app.2eda9fa675307af97f63.png",
     "static/media/nire.png": "/static/media/nire.b8d38f8bf96171ff4f66.png",
     "index.html": "/index.html",
-    "main.f0cd0374.css.map": "/static/css/main.f0cd0374.css.map",
+    "main.5649a63a.css.map": "/static/css/main.5649a63a.css.map",
     "main.bbcac29a.js.map": "/static/js/main.bbcac29a.js.map",
     "787.992e299a.chunk.js.map": "/static/js/787.992e299a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0cd0374.css",
+    "static/css/main.5649a63a.css",
     "static/js/main.bbcac29a.js"
   ]
 }
