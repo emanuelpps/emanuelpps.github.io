@@ -6,6 +6,11 @@
   justify-items: center;
   overflow-y: hidden;
   overflow-x: hidden;
+  background-image: url("../../../src/assets/images/code-background.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .box{

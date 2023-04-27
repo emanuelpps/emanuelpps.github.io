@@ -9,10 +9,11 @@
 }
 
 html{
-  overflow-x: hidden;
+  
 }
 
 html, body {
+  overflow-x: hidden;
   height: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;

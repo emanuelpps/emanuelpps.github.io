@@ -8,7 +8,7 @@ import PortfolioNire from "./Projects/PortfolioNire";
 
 export default function PortfolioContainer() {
   return (
-    <div>
+    <div className="portfolio-container">
       <h1 id="Portfolio" className="portfolio-title">Portfolio</h1>
       <div className="portfolio">
         <PortfolioEmbe />

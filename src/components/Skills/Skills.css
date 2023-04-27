@@ -5,6 +5,7 @@
   background-color: #2c3639;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30px, auto));
+  
 }
 
 .skills-title {
