@@ -7,7 +7,6 @@ import { useAnimation } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-//import { SMTPClient } from "emailjs";
 
 export default function ContactMe() {
   const { ref, inView } = useInView();

@@ -11,7 +11,8 @@ import { HashLink } from "react-router-hash-link";
 
 function App() {
   return (
-    <div className="App background">
+    <div>
+      <div className="App background">
       <Header exact path="/emanuelpps" />
       <HashLink smooth to="#AboutMe">
       <ScrollToTop className="BackTopArrow" smooth top={860}/>
@@ -22,6 +23,7 @@ function App() {
       <PortfolioContainer />
       <ContactMe />
       <Footer />
+      </div>
     </div>
   );
 }

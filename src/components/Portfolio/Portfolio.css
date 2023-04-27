@@ -1,3 +1,13 @@
+.portfolio {
+  display: grid;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+  justify-items: center;
+  gap: 500px;
+}
+
 .portfolio-title {
   width: 100vw;
   height: 20rem;
@@ -12,16 +22,6 @@
   text-shadow: 3px 0px 7px #000, -3px 0px 7px #000, 0px 4px 7px #000;
 }
 
-.portfolio {
-  display: grid;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 150px;
-  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
-  justify-items: center;
-  gap: 500px;
-}
-
 .portfolio-box {
   background-color: #a27b5c;
   align-items: stretch;
@@ -29,6 +29,7 @@
   justify-items: center;
   border-radius: 20px;
   margin-top: -100px;
+  height: auto;
 }
 
 .description-box h3 h4{

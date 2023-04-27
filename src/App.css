@@ -1,5 +1,4 @@
 .App {
-  overflow-x: hidden;
   background-image: url("../src/assets/images/image.webp") ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,19 +11,4 @@ path {
   box-shadow: none !important;
   background-color: #a27b5c !important;
   fill: white ;
-}
-
-
-@media screen and (max-width: 950px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
-
-@media screen and (max-width: 720px) {
-  body {
-    overflow-x: hidden;
-  }
-  
 }
