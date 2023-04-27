@@ -46,7 +46,7 @@ section p {
     display: grid;
     grid-template-columns: repeat(3, 10% 80% 10%);
     grid-template-rows: 1fr;
-    margin: 80px 0px 80px 0px;
+    padding: 80px 0px 80px 0px;
   }
 
   .AboutMe-Container h1 {
@@ -62,6 +62,7 @@ section p {
 @media screen and (max-width:450px){
   .AboutMe-Container{
     display: grid;
+    height: auto;
     grid-template-columns: repeat(3, 5% 90% 5%);
   }
 

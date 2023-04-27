@@ -262,12 +262,12 @@
 
 .imgBackgroundSymbol {
   width: 10rem;
-  position: absolute;
+  position:initial;
 }
 
 .imgBackgroundSymbol-2 {
   width: 5rem;
-  position: absolute
+  position:initial;
   ;
 }
 
