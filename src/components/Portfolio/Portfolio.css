@@ -98,8 +98,19 @@ description-box ul {
   align-items: center;
 }
 
-@media screen and (max-width: 960px){
-  
+@media screen and (max-width: 650px){
+  .portfolio-box{
+    justify-items: center;
+    width: 80vw;
+  }
+
+  .description-box{
+    width: 70vw;
+  }
+
+  .picture img{
+    width: 60vw;
+  }
 }
 
 /* #portfolio {
