@@ -88,6 +88,37 @@
   box-shadow: 10px 10px 5px #232b2e;
 }
 
+@media screen and (max-width: 650px){
+  .skills-box {
+    display: grid;
+    justify-items: center
+}
+
+.skills-cards {
+  margin-right: 10px;
+  max-width: 650px;
+  grid-area: 2/2 / span 1 / span 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 20px;
+  justify-items: end;
+  align-items: center;
+}
+
+.flip-card {
+  width: 80px;
+  height: 120px;
+}
+
+.skills-cards img {
+  width: auto;
+}
+
+.skills-title{
+  font-size: 2.8rem;
+}
+}
+
 /*
 .Skills-div {
   display: flex;

@@ -36,20 +36,30 @@ section p {
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
   .AboutMe-Container{
     display: grid;
     grid-template-columns: repeat(3, 10% 80% 10%);
-    overflow-x: hidden;
+    grid-template-rows: 1fr;
+    margin: 80px 0px 80px 0px;
   }
+
+  .AboutMe-Container h1 {
+    font-size: 2.8rem;
+  }
+
+  section p {
+    font-size: 0.8em;
+  }
+  
 }
 
 @media screen and (max-width:450px){
   .AboutMe-Container{
     display: grid;
     grid-template-columns: repeat(3, 5% 90% 5%);
-    overflow-x: hidden;
   }
+
 }
 
 
