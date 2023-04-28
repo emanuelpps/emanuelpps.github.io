@@ -336,6 +336,12 @@
     justify-content: start;
   }
 
+  .arrows {
+    display: grid;
+    justify-items: center;
+    height: 72px;
+    bottom: 20px;
+  }
   .imgBackgroundSymbol {
     display: none;
   }
