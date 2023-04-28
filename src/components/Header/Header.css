@@ -274,13 +274,12 @@
   grid-area: 3/2 / span 1 / span 1;
   display: grid;
   justify-content: center;
-  align-items: end;
+  align-items: center;
 }
 
 .arrows {
   width: 60px;
   height: 72px;
-  position: relative;
   bottom: 20px;
 }
 
