@@ -370,6 +370,14 @@
     justify-items: center;
     align-items: center;
   }
+
+  .imgBackgroundSymbol {
+    display: none;
+  }
+  
+  .imgBackgroundSymbol-2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -406,11 +414,11 @@
     align-items: center;
   }
   .imgBackgroundSymbol {
-    width: 5rem;
+    display: none;
   }
   
   .imgBackgroundSymbol-2 {
-    width: 3rem;
+    display: none;
   }
 
   .arrows {
