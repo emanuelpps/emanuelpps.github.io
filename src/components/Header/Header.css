@@ -348,25 +348,7 @@
     justify-content: start;
   }
   .header-box {
-    width: 100%;
     display: grid;
-    justify-items: center;
-  }
-
-  .img-box {
-    grid-column: 1/3;
-    grid-area: 1/2 / span 1 / span 1;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-  
-  .img-box-2 {
-    display: grid;
-    grid-column: 1/2;
-    grid-area: 3/1 / span 1 / span 1;
-    justify-items: center;
-    align-items: center;
   }
 
   .imgBackgroundSymbol {
@@ -393,10 +375,6 @@
     justify-content: center;
   }
 
-  .arrows {
-    width: 30px;
-    height: 2px;
-  }
   .img-box {
     grid-column: 1/3;
     grid-area: 1/3 / span 1 / span 1;
