@@ -15,7 +15,7 @@ function App() {
       <div className="App background">
       <Header exact path="/emanuelpps" />
       <HashLink smooth to="#AboutMe">
-      <ScrollToTop className="BackTopArrow" smooth top={860}/>
+      <ScrollToTop className="BackTopArrow" smooth/>
       </HashLink>
       <NavBar />
       <AboutMe />

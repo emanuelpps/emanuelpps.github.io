@@ -245,7 +245,7 @@
 }
 
 .grid-drop-down-img {
-  grid-column: 1/1;
+  grid-column: 1/4;
   grid-area: 3/2 / span 1 / span 1;
   display: grid;
   justify-content: center;
@@ -325,7 +325,7 @@
 
   .header-box {
     max-width: 650px;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, auto));
+    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
     width: 100%;
   }
   .header-box h1 {
@@ -339,8 +339,7 @@
   .arrows {
     display: grid;
     justify-items: center;
-    height: 72px;
-    bottom: 20px;
+    align-items: center;
   }
   .imgBackgroundSymbol {
     display: none;
@@ -353,12 +352,10 @@
 
 @media screen and (max-width: 350px) {
   .header-box {
-    width: 100%;
-    max-width: 350px;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(5px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(50px, auto));
   }
 
   .header-box h1 {

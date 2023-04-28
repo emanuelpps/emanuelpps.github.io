@@ -1,6 +1,8 @@
 
 .BackTopArrow,
 path {
+  display: grid;
+  justify-items: center;
   box-shadow: none !important;
   background-color: #a27b5c !important;
   fill: white ;

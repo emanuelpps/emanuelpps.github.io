@@ -80,7 +80,6 @@ export default function Header() {
             </div>
           </section>
         </div>
-        
         <div className="grid-drop-down-img">
           <HashLink smooth to="#AboutMe">
             <motion.svg
