@@ -2,7 +2,7 @@
   background-color: #2c3639;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
   justify-items: center;
   grid-template-rows: 1fr 2fr 1fr;
 }
