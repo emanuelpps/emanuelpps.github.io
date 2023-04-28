@@ -6,11 +6,11 @@
   justify-items: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-image: url("../../../src/assets/images/code-background.png") ;
+  background-image: url("../../../src/assets/images/code-background.jpg") ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
 }
 
 .box{
@@ -65,6 +65,7 @@ section p {
     display: grid;
     height: auto;
     grid-template-columns: repeat(3, 5% 90% 5%);
+    background-size: 100%;
   }
 
 }
