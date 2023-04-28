@@ -120,20 +120,7 @@
 }
 }
 
-/*
-.Skills-div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: end;
-  align-items: center;
-  margin: 120px;
-  margin-left: 80px;
-  }
-
-
-
-.Skills-box h1 {
+ills-box h1 {
   margin-left: 150px;
   padding-right: 10px;
   margin-bottom: 5rem;
@@ -204,4 +191,3 @@
   transform: rotateY(180deg);
   align-items: center;
 }
-*/
