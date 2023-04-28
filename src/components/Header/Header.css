@@ -325,7 +325,7 @@
 
   .header-box {
     max-width: 650px;
-    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+    /*grid-template-columns: repeat(auto-fill, minmax(100px, auto));*/
     width: 100%;
   }
   .header-box h1 {
@@ -355,7 +355,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(50px, auto));
+    /*grid-template-columns: repeat(auto-fill, minmax(50px, auto));*/
   }
 
   .header-box h1 {
