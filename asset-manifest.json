@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.aede775f.css",
+    "main.css": "/static/css/main.82ba2257.css",
     "main.js": "/static/js/main.80115b55.js",
     "static/js/787.992e299a.chunk.js": "/static/js/787.992e299a.chunk.js",
+    "static/media/code-background.jpg": "/static/media/code-background.e6b34dbdb1894b195075.jpg",
     "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.baba22e5ad9d56a5660e.png",
-    "static/media/code-background.png": "/static/media/code-background.d4842f9a8d58b0956bae.png",
     "static/media/falcon_aviation_shop.png": "/static/media/falcon_aviation_shop.817ee0dcc63e54ff1b51.png",
     "static/media/don-remolo-pizza.png": "/static/media/don-remolo-pizza.86ccb6e6fc135d77e51a.png",
     "static/media/nire.png": "/static/media/nire.94e312cd537ce216b529.png",
     "static/media/airport_routes_app.png": "/static/media/airport_routes_app.99c58db7ba2d0d900bad.png",
     "index.html": "/index.html",
-    "main.aede775f.css.map": "/static/css/main.aede775f.css.map",
+    "main.82ba2257.css.map": "/static/css/main.82ba2257.css.map",
     "main.80115b55.js.map": "/static/js/main.80115b55.js.map",
     "787.992e299a.chunk.js.map": "/static/js/787.992e299a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aede775f.css",
+    "static/css/main.82ba2257.css",
     "static/js/main.80115b55.js"
   ]
 }
