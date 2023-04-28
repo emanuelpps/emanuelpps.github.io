@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5649a63a.css",
-    "main.js": "/static/js/main.bbcac29a.js",
+    "main.css": "/static/css/main.aede775f.css",
+    "main.js": "/static/js/main.80115b55.js",
     "static/js/787.992e299a.chunk.js": "/static/js/787.992e299a.chunk.js",
-    "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.3fd2a0b512846e48bd1a.png",
-    "static/media/falcon_aviation_shop.png": "/static/media/falcon_aviation_shop.b3f7a6e2df543575e4e0.png",
+    "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.baba22e5ad9d56a5660e.png",
     "static/media/code-background.png": "/static/media/code-background.d4842f9a8d58b0956bae.png",
-    "static/media/don-remolo-pizza.png": "/static/media/don-remolo-pizza.55bd6581f9d7d31315ce.png",
-    "static/media/airport_routes_app.png": "/static/media/airport_routes_app.2eda9fa675307af97f63.png",
-    "static/media/nire.png": "/static/media/nire.b8d38f8bf96171ff4f66.png",
+    "static/media/falcon_aviation_shop.png": "/static/media/falcon_aviation_shop.817ee0dcc63e54ff1b51.png",
+    "static/media/don-remolo-pizza.png": "/static/media/don-remolo-pizza.86ccb6e6fc135d77e51a.png",
+    "static/media/nire.png": "/static/media/nire.94e312cd537ce216b529.png",
+    "static/media/airport_routes_app.png": "/static/media/airport_routes_app.99c58db7ba2d0d900bad.png",
     "index.html": "/index.html",
-    "main.5649a63a.css.map": "/static/css/main.5649a63a.css.map",
-    "main.bbcac29a.js.map": "/static/js/main.bbcac29a.js.map",
+    "main.aede775f.css.map": "/static/css/main.aede775f.css.map",
+    "main.80115b55.js.map": "/static/js/main.80115b55.js.map",
     "787.992e299a.chunk.js.map": "/static/js/787.992e299a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5649a63a.css",
-    "static/js/main.bbcac29a.js"
+    "static/css/main.aede775f.css",
+    "static/js/main.80115b55.js"
   ]
 }
