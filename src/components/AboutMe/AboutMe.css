@@ -6,11 +6,6 @@
   justify-items: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-image: url("../../../src/assets/images/code-background.jpg") ;
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-attachment: fixed;
-  background-position: center center;
 }
 
 .box{
@@ -63,8 +58,6 @@ section p {
 
 @media screen and (max-width:450px){
   .AboutMe-Container{
-    width: 100%;
-    height: 100vh;
     display: grid;
     height: auto;
     grid-template-columns: repeat(3, 5% 90% 5%);
