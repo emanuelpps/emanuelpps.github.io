@@ -347,9 +347,6 @@
     display: grid;
     justify-content: start;
   }
-  .header-box {
-    display: grid;
-  }
 
   .imgBackgroundSymbol {
     display: none;

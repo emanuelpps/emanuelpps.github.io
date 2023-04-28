@@ -14,6 +14,14 @@ html, body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
+  background-image: url("../src/assets/images/code-background.jpg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 

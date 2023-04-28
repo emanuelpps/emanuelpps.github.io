@@ -6,14 +6,7 @@ import { HashLink } from "react-router-hash-link";
 export default function Header() {
   return (
     <div className="header-box">
-        <div className="img-box">
-          <img
-            className="imgBackgroundSymbol"
-            src={process.env.PUBLIC_URL + "/assets/htmlsymbol.svg"}
-            alt=""
-            fill="#393E46"
-          ></img>
-        </div>
+        
         <div className="grid-title-and-buttons">
           <section className="section-titles">
             <h1 className="text-start">
@@ -87,14 +80,7 @@ export default function Header() {
             </div>
           </section>
         </div>
-        <div className="img-box-2">
-          <img
-            className="imgBackgroundSymbol-2"
-            src={process.env.PUBLIC_URL + "/assets/corchetes.svg"}
-            alt=""
-            fill="#393E46"
-          ></img>
-        </div>
+        
         <div className="grid-drop-down-img">
           <HashLink smooth to="#AboutMe">
             <motion.svg

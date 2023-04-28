@@ -1,10 +1,4 @@
-.portfolio-container{
-  background-image: url("../../../src/assets/images/code-background.jpg") ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
+
 
 .portfolio {
   display: grid;
