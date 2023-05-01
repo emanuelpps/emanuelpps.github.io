@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="header-box">
         
-        <div className="grid-title-and-buttons">
+        <div className="grid-title-and-buttons ">
           <section className="section-titles">
             <h1>
               <motion.div
@@ -80,7 +80,7 @@ export default function Header() {
             </div>
           </section>
         </div>
-        <div className="grid-drop-down-img">
+        <div className="grid-drop-down-img d-flex justify-content-center">
           <HashLink smooth to="#AboutMe">
             <motion.svg
               initial={{ opacity: 0 }}
