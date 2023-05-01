@@ -311,15 +311,20 @@
 }
 
 @media screen and (max-width: 650px) {
+.header-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+
   .button {
     cursor: pointer;
-    --width: auto;
-    --height: auto;
+    --width: 140px;
+    --height: 55px;
   }
 
-  .button-wrapper-contact-me,
-.button-wrapper-about-me{
+  .button{
   font-size: 0.8rem;
+  display: grid;
 }
 
 
