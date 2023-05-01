@@ -313,8 +313,8 @@
 @media screen and (max-width: 650px) {
   .button {
     cursor: pointer;
-    --width: 140px;
-    --height: 55px;
+    --width: auto;
+    --height: auto;
   }
 
   .button-wrapper-contact-me,
@@ -322,17 +322,11 @@
   font-size: 0.8rem;
 }
 
-  .header-box {
-    max-width: 650px;
-    /*grid-template-columns: repeat(auto-fill, minmax(100px, auto));*/
-    width: 100%;
-  }
+
   .header-box h1 {
     font-size: 3rem;
     letter-spacing: -0.2rem;
     text-shadow: -3px 0px 5px #000000;
-    display: grid;
-    justify-content: start;
   }
 
   .arrows {
@@ -340,27 +334,12 @@
     justify-items: center;
     align-items: center;
   }
-  .imgBackgroundSymbol {
-    display: none;
-  }
-
-  .imgBackgroundSymbol-2 {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 350px) {
-  .header-box {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    /*grid-template-columns: repeat(auto-fill, minmax(50px, auto));*/
-  }
 
   .header-box h1 {
-    display: grid;
     width: 100%;
     font-size: 2.5rem;
-    justify-content: center;
   }
 }
