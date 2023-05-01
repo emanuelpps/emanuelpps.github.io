@@ -9,7 +9,7 @@ export default function Header() {
         
         <div className="grid-title-and-buttons">
           <section className="section-titles">
-            <h1 className="text-start">
+            <h1>
               <motion.div
                 initial={{ x: -800 }}
                 animate={{ x: 0 }}
