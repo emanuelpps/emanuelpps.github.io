@@ -3,6 +3,7 @@
   display: grid;
   padding-bottom: 100px;
   padding-top: 100px;
+  font-family: 'Fira Code', monospace;
 }
 
 .ContactMe-box h2 {
