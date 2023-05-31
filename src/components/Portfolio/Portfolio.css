@@ -9,7 +9,7 @@
   display: grid; 
   grid-auto-columns: 1fr; 
   grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas: 
     ". ."
     ". ."; 
@@ -35,7 +35,6 @@
 
 .portfolio-box {
   background-color: #a27b5c;
-  align-items:stretch;
   display: grid;
   justify-items: center;
   border-radius: 20px;

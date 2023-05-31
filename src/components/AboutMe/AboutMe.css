@@ -12,6 +12,7 @@
 }
 
 .box{
+  width: 90%;
   background-color: #2c3639;
   height: auto;
   display: grid;
@@ -28,14 +29,14 @@
 .AboutMe-Container h1 {
   color: #dcd7c9;
   font-weight: 300;
-  font-size: 3.2rem;
+  font-size: 3rem;
   letter-spacing: -0.1rem;
   padding-bottom: 30px;
 }
 
 section p {
   color: #dcd7c9;
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
 
 
