@@ -4,8 +4,8 @@ import PortfolioEmbe from "./Projects/PortfolioEmbe";
 import PortfolioFalcon from "./Projects/PortfolioFalcon";
 import PortfolioRemolo from "./Projects/PortfolioRemolo";
 import PortfolioAirports from "./Projects/PortfolioAirport";
-import PortfolioNire from "./Projects/PortfolioNire";
 import PortfolioTicTacToe from "./Projects/PortfolioTicTacToe";
+import PortfolioEpWeather from "./Projects/PortfolioEpWeather";
 
 export default function PortfolioContainer() {
   return (
@@ -13,11 +13,11 @@ export default function PortfolioContainer() {
       <h1 id="Portfolio" className="portfolio-title">Portfolio</h1>
       <div className="portfolio">
         <PortfolioRemolo />
+        <PortfolioEpWeather />
         <PortfolioEmbe />
         <PortfolioTicTacToe/>
         <PortfolioFalcon />
         <PortfolioAirports />
-        <PortfolioNire />
       </div>
     </div>
   );
