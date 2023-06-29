@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a69b5bd.css",
-    "main.js": "/static/js/main.524b0f72.js",
+    "main.css": "/static/css/main.21f7cc79.css",
+    "main.js": "/static/js/main.ef2d1390.js",
     "static/js/787.992e299a.chunk.js": "/static/js/787.992e299a.chunk.js",
     "static/media/code-background.jpg": "/static/media/code-background.e6b34dbdb1894b195075.jpg",
     "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.baba22e5ad9d56a5660e.png",
@@ -10,13 +10,15 @@
     "static/media/tic-tac-toe.jpg": "/static/media/tic-tac-toe.fc8c4648c6a52b34e570.jpg",
     "static/media/don-remolo-pizza.png": "/static/media/don-remolo-pizza.86ccb6e6fc135d77e51a.png",
     "static/media/airport_routes_app.png": "/static/media/airport_routes_app.99c58db7ba2d0d900bad.png",
+    "static/media/github.png": "/static/media/github.efd5abf5a3b20b2f196a.png",
+    "static/media/link.png": "/static/media/link.3653138ac42e29091024.png",
     "index.html": "/index.html",
-    "main.0a69b5bd.css.map": "/static/css/main.0a69b5bd.css.map",
-    "main.524b0f72.js.map": "/static/js/main.524b0f72.js.map",
+    "main.21f7cc79.css.map": "/static/css/main.21f7cc79.css.map",
+    "main.ef2d1390.js.map": "/static/js/main.ef2d1390.js.map",
     "787.992e299a.chunk.js.map": "/static/js/787.992e299a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a69b5bd.css",
-    "static/js/main.524b0f72.js"
+    "static/css/main.21f7cc79.css",
+    "static/js/main.ef2d1390.js"
   ]
 }
