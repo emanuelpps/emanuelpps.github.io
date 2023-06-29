@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
   return (
-    <footer class="text-center py-3">
+    <footer class="text-center py-3 footer-text">
       <ul class="mx-auto justify-content-center align-content-center pt-3 pb-4">
         <li class="nav-item">
           <HashLink to="#AboutMe" class="nav-link px-2 text-white">
@@ -27,7 +27,7 @@ export default function Footer() {
           </HashLink>
         </li>
       </ul>
-      <p class="text-center text-white">© 2023 Emanuel Pagés</p>
+      <p class="text-center footer-text">© 2023 Emanuel Pagés</p>
     </footer>
   );
 }

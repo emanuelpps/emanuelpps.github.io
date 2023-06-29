@@ -6,8 +6,8 @@ import { HashLink } from "react-router-hash-link";
 
 export default function NavBar() {
   return (
-    <nav className="navbar bg  navbar-expand-lg sticky-top">
-      <div className="container">
+    <nav className="navbar  navbar-expand-lg sticky-top">
+      <div className="container navbar-container">
         <div>
           <Link
             className="button-container-social"

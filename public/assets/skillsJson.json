@@ -9,7 +9,7 @@
     },
     {
         "language": "JavaScript",
-        "img": "./assets/js.png"
+        "img": "./assets/javascript.png"
     },
     {
         "language": "Sass",
@@ -37,7 +37,7 @@
     },
     {
         "language": "Framer Motion",
-        "img": "./assets/framerIcon.svg"
+        "img": "./assets/framer-logo.png"
     },
     {
         "language": "Node JS",

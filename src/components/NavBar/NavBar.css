@@ -1,10 +1,22 @@
 .navbar {
-  background-color: #3f4e4f;
+  height: 50px;
+  background-color: transparent;
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.35);
 }
 
 .container ul li a {
   color: #dcd7c9;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: -0.1rem;
 }
+
+.container ul li a:hover {
+  color: #a27b5c;
+}
+
 .navBar-Icons {
   width: 2rem;
   margin: 0.5rem;
@@ -17,5 +29,18 @@
   @media screen and(max-width:950px) {
     .container ul {
       width: 100vw;
+    }
+    .navbar{
+      height: 80px;
+    }
+  }
+
+  @media screen and(max-width:680px) {
+    .navbar-container {
+      width: 100vw;
+      font-size: 1.2;
+    }
+    .navbar{
+      width: 100%;
     }
   }

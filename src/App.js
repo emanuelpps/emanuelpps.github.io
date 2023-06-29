@@ -2,7 +2,6 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Skills from "./components/Skills/Skills";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import PortfolioContainer from "./components/Portfolio/PortfolioContainer";
@@ -19,7 +18,6 @@ function App() {
       </HashLink>
       <NavBar />
       <AboutMe />
-      <Skills />
       <PortfolioContainer />
       <ContactMe />
       <Footer />

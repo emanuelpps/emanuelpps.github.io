@@ -10,14 +10,14 @@ import PortfolioEpWeather from "./Projects/PortfolioEpWeather";
 export default function PortfolioContainer() {
   return (
     <div className="portfolio-container">
-      <h1 id="Portfolio" className="portfolio-title">Portfolio</h1>
-      <div className="portfolio">
+      <h1 id="Portfolio" className="portfolio-title">Projects</h1>
+      <div className="portfolio-cards">
         <PortfolioRemolo />
         <PortfolioEpWeather />
         <PortfolioEmbe />
         <PortfolioTicTacToe/>
-        <PortfolioFalcon />
-        <PortfolioAirports />
+        <PortfolioFalcon/>
+        <PortfolioAirports/>
       </div>
     </div>
   );

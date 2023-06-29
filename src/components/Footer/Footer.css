@@ -1,7 +1,9 @@
 footer{
     overflow-x: hidden;
-    background-color: #2C3639;
-    color: #DCD7C9;;
+    background-color: #353535;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: -0.1rem;
 }
 
 footer ul{
@@ -10,3 +12,11 @@ footer ul{
     text-decoration: none;
     list-style: none;
 }
+
+footer .nav-link {
+    color: #dcd7c9 !important;
+  }
+
+  .footer-text {
+    color: #dcd7c9;
+  }
