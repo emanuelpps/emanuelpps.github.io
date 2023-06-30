@@ -46,7 +46,7 @@ export default function Header() {
                 to="/#ContactMe"
                 class="button-wrapper-contact-me"
               >
-                <div class="text">Contact Me</div>
+                <div class="text">Contact</div>
               </HashLink>
             </div>
             <div class="button">
