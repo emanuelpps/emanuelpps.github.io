@@ -32,6 +32,7 @@
   padding-top: 100px;
 }
 
+
 .AboutMe-Container h1 {
   color: #000000;
   font-weight: 300;
@@ -57,13 +58,20 @@ section p {
   font-size: 0.9em;
 }
 
+.aboutme-p{
+  display: flex;
+  width: 100%;
+  padding: 0px 70px 0px 70px;
+  
+}
+
 .skills-container {
   display: grid;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-template-rows: 0.1fr 4fr;
   gap: 0px 0px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .card-container {
@@ -83,6 +91,7 @@ section p {
 }
 
 .card {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,10 +102,17 @@ section p {
   justify-self: center;
 }
 
-img {
-  width: 80px;
+
+
+img{
+  width: 60px;
+  max-width: 100%;
+  display: flex;
 }
 
+.card-container{
+  display: grid;
+}
 
 @media screen and (max-width: 1024px) {
 .AboutMe-Container {

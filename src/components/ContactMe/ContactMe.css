@@ -2,7 +2,7 @@
   background-color: #353535;
   color:  #dcd7c9;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: -0.1rem;
   padding-bottom: 20px;
 }
@@ -73,7 +73,7 @@
 }
 
 .button-form {
-  appearance: none;
+  font-family: 'Fira Code', monospace;
   background-color: transparent;
   border: 0.125em solid #1a1a1a;
   border-radius: 0.9375em;
@@ -82,7 +82,7 @@
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 300;
   line-height: normal;
   margin: 0;
   min-height: 3.75em;
@@ -107,6 +107,7 @@
   background-color: #a27b5c;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
+  color:#1a1a1a;
 }
 
 .button-form:active {
@@ -121,12 +122,12 @@
   outline: none;
   color: #dcd7c9 !important;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: -0.1rem;
 }
 
 .btn-contact:hover {
-  color: #1a1a1a;
+  color: #a27b5c !important;
 }
 
 .ContactME-Icons-mail {

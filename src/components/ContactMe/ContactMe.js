@@ -111,7 +111,7 @@ export default function ContactMe() {
         </form>
         <div className="list-group justify-content-center div-button">
           <Link
-            className="button-container-social"
+            className="btn-contact"
             to={"https://github.com/emanuelpps"}
             target="_blank"
           >
@@ -132,7 +132,7 @@ export default function ContactMe() {
             </button>
           </Link>
           <Link
-            className="button-container-social"
+            className="btn-contact"
             to={"https://www.linkedin.com/in/emanuel-ps"}
             target="_blank"
           >

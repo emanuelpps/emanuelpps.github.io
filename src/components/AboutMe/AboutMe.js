@@ -42,16 +42,13 @@ export default function AboutMe() {
     <div ref={ref} id="AboutMe" className="AboutMe-Container">
       <motion.section animate={animation} className="box">
         <h1>About Me</h1>
-        <p>
-          I am a passionate Full Stack developer with aspirations to learn and
-          grow in a collaborative work environment and team. I have knowledge
-          in HTML, CSS, JavaScript, and ReactJS. Currently, I am still learning
-          and taking back-end development courses at Coderhouse. My future goal
+        <p className="aboutme-p">
+          I am a passionate Front End developer with aspirations to learn and
+          grow in a collaborative work environment and team. Currently, I am still learning
+          and taking back-end development courses. My future goal
           is to become an experienced full-stack developer. I have been working
           in Digital Marketing for more than 6 years in different companies,
-          both related to E-commerce and Digital Marketing agencies. My goal is
-          to get my first job in the programming industry and evolve myself
-          professionally as a developer.
+          both related to E-commerce and Digital Marketing agencies. My objective is to grow and enhance my professional skills in the programming industry.
         </p>
         <div  ref={ref} id="Skills" className="skills-container">
           <h2>Skills</h2>
