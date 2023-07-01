@@ -58,8 +58,7 @@
 }
 
 .text:hover{
-  background-color: #a27b5c;
-  border-radius: 10px 10px 10px 10px;
+  color: #a27b5c;
 }
 
 .button-wrapper-contact-me,
@@ -72,7 +71,6 @@
   height: 100%;
   left: 0;
   color: #dcd7c9;
-  border: 1px solid;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -183,10 +181,20 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 680px) {
 
   .header-box h1 {
     width: 100%;
     font-size: 2.3rem;
+  }
+
+  .button {
+    cursor: pointer;
+    --width: 105px;
+    --height: 45px;
+    --tooltip-height: 35px;
+    --tooltip-width: 70px;
+    --gap-between-tooltip-to-button: 18px;
+
   }
 }

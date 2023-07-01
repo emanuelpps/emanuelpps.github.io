@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 export default function NavBar() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="navbar  navbar-expand-lg sticky-top">
       <div className="container navbar-container">
@@ -38,19 +44,21 @@ export default function NavBar() {
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
             </svg>
           </Link>
-        </div>
+          </div>
         <button
-          class="navbar-toggler"
+          className={`navbar-toggler ${isMenuOpen ? "collapsed" : ""}`}
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+          onClick={handleMenuToggle}
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded={isMenuOpen ? "true" : "false"}
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div id="navbarSupportedContent" className="colllapse navbar-collapse  justify-content-end">
+        <div
+          id="navbarSupportedContent"
+          className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? "show" : ""}`}
+        >
           <ul className="nav px-5 navbar-text">
             <li className="nav-item">
               <HashLink
@@ -77,7 +85,7 @@ export default function NavBar() {
                 Contact
               </HashLink>
             </li>
-          </ul>
+            </ul>
         </div>
       </div>
     </nav>
