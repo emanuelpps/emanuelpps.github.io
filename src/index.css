@@ -1,28 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
 html, body {
   overflow-x: hidden;
-  overflow-y: auto;
   height: 100%;
-  scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
-  background-image: url("../src/assets/images/code-background.jpg") ;
+  background-image: url("../src/assets/images/code-background.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 
-
-
+/* Versión de escritorio */
+@media screen and (min-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
+}
