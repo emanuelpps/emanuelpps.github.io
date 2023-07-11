@@ -9,6 +9,7 @@ import PortfolioEpWeather from "./Projects/PortfolioEpWeather";
 import PortfolioBeitia from "./Projects/PortfolioBeitia";
 import PortfolioTgl from "./Projects/PortfolioTgl";
 import PortfolioTodo from "./Projects/PortfolioTodo";
+import PortfolioNire from "./Projects/PortfolioNire";
 
 export default function PortfolioContainer() {
   return (
@@ -17,10 +18,10 @@ export default function PortfolioContainer() {
       <div className="portfolio-cards">
         <PortfolioRemolo />
         <PortfolioEpWeather />
-        <PortfolioEmbe />
         <PortfolioTodo/>
+        <PortfolioNire/>
+        <PortfolioEmbe />
         <PortfolioFalcon/>
-        <PortfolioAirports/>
         <PortfolioTicTacToe/>
         <PortfolioBeitia/>
         <PortfolioTgl/>
