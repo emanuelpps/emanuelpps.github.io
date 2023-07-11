@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7c9bd7c.css",
-    "main.js": "/static/js/main.bb9f24db.js",
+    "main.js": "/static/js/main.c4000efc.js",
     "static/js/787.992e299a.chunk.js": "/static/js/787.992e299a.chunk.js",
     "static/media/code-background.jpg": "/static/media/code-background.e6b34dbdb1894b195075.jpg",
     "static/media/Embe-ecommerce.png": "/static/media/Embe-ecommerce.baba22e5ad9d56a5660e.png",
@@ -10,6 +10,7 @@
     "static/media/falcon_aviation_shop.png": "/static/media/falcon_aviation_shop.817ee0dcc63e54ff1b51.png",
     "static/media/weatherEP.jpg": "/static/media/weatherEP.248c5ee7f92055c641ba.jpg",
     "static/media/tglobras.jpg": "/static/media/tglobras.19439377bd700250bd00.jpg",
+    "static/media/nire.png": "/static/media/nire.b7283dd25df0a65a7795.png",
     "static/media/tic-tac-toe.jpg": "/static/media/tic-tac-toe.fc8c4648c6a52b34e570.jpg",
     "static/media/don-remolo-pizza.png": "/static/media/don-remolo-pizza.86ccb6e6fc135d77e51a.png",
     "static/media/airport_routes_app.png": "/static/media/airport_routes_app.99c58db7ba2d0d900bad.png",
@@ -17,11 +18,11 @@
     "static/media/link.png": "/static/media/link.3653138ac42e29091024.png",
     "index.html": "/index.html",
     "main.a7c9bd7c.css.map": "/static/css/main.a7c9bd7c.css.map",
-    "main.bb9f24db.js.map": "/static/js/main.bb9f24db.js.map",
+    "main.c4000efc.js.map": "/static/js/main.c4000efc.js.map",
     "787.992e299a.chunk.js.map": "/static/js/787.992e299a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7c9bd7c.css",
-    "static/js/main.bb9f24db.js"
+    "static/js/main.c4000efc.js"
   ]
 }
