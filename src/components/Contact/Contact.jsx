@@ -151,7 +151,7 @@ export default function Contact() {
           <ul className="info-data">
             <Link
               className="text-link"
-              to={"https://www.linkedin.com/in/emanuel-p"}
+              to={"https://www.linkedin.com/in/emanuel-ps"}
             >
               <button>
                 <div className="icon-contact">
