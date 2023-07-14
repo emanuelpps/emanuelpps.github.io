@@ -1,0 +1,109 @@
+.backgroundCert {
+  background-color: rgb(27, 27, 27);
+}
+
+.certifications {
+  width: 100%;
+  color: azure;
+  background-color: rgb(27, 27, 27);
+  display: grid;
+  grid-template-columns: 0.8fr repeat(7, 1fr) 0.9fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". certifications-title certifications-title certifications-title certifications-title certifications-title certifications-title certifications-title ."
+    ". certification-icon certification-icon certification-icon certification-icon certification-icon certification-icon certification-icon .";
+  padding-bottom: 250px;
+}
+
+.certifications-title {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". ."
+    ". .";
+  grid-area: certifications-title;
+  border-bottom: 1px solid;
+}
+
+.certTitle {
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.certification-icon {
+  height: 70px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . process-text"
+    "certIcons certIcons certIcons certIcons certIcons certIcons certIcons"
+    ". . . . . . .";
+  grid-area: certification-icon;
+  justify-self: center;
+}
+
+.process-text {
+  grid-area: process-text;
+  justify-self: center;
+  align-self: end;
+}
+
+.certIcons {
+  height: 103px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: ". . . . . . .";
+  grid-area: certIcons;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.icon-premium {
+  font-size: 3rem;
+  text-decoration: none;
+  color: inherit;
+  justify-self: center;
+  align-self: center;
+  transition: transform 0.3s ease;
+}
+
+.icon-premium:hover {
+  font-size: 3.5rem;
+  transform: scale(1.1);
+}
+
+.icon-certifications-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: end;
+  align-items: center;
+  justify-self: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.certifications h6 {
+  font-size: 0.8rem;
+}

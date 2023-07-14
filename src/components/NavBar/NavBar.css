@@ -1,27 +1,31 @@
-.navBar-container{
-    height: 50px;
-    min-height: 50px;
-    max-height: 50px;
-    background-color: rgb(22, 22, 22);
+.navBar-container {
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  background-color: rgb(22, 22, 22);
 }
 
-button{
-    border: none;
-    outline: none;
+button {
+  border: none;
+  outline: none;
 }
 
-.nav-link:hover{
-    font-weight: 600;
-    transition: 0.10s;
+.nav-link {
+  transition: transform 0.3s ease;
 }
 
-.popover{
-    min-width: max-content;
-    width: 100px;
-    color: azure;
-    background-color: rgb(27, 27, 27) !important;
-    margin-top: 20px;
-    position: relative;
-    outline: none;
-    border: none !important;
+.nav-link:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+.popover {
+  min-width: max-content;
+  width: 100px;
+  color: azure;
+  background-color: rgb(27, 27, 27) !important;
+  margin-top: 20px;
+  position: relative;
+  outline: none;
+  border: none !important;
 }
