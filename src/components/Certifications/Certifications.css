@@ -108,3 +108,10 @@
 .certifications h6 {
   font-size: 0.8rem;
 }
+
+/* mobile */
+@media (max-width: 968px) {
+  .certifications {
+display: none;
+  }
+}
