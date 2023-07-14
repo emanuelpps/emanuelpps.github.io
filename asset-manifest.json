@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.175e8ddf.css",
+    "main.js": "/static/js/main.3eecce39.js",
+    "static/js/787.8aa6511b.chunk.js": "/static/js/787.8aa6511b.chunk.js",
+    "static/media/nikita-unsplash.png": "/static/media/nikita-unsplash.b48014f6559f973d4b01.png",
+    "static/media/unsplash-mobile.png": "/static/media/unsplash-mobile.ff487e881e055646a45c.png",
+    "index.html": "/index.html",
+    "main.175e8ddf.css.map": "/static/css/main.175e8ddf.css.map",
+    "main.3eecce39.js.map": "/static/js/main.3eecce39.js.map",
+    "787.8aa6511b.chunk.js.map": "/static/js/787.8aa6511b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.175e8ddf.css",
+    "static/js/main.3eecce39.js"
+  ]
+}
