@@ -1,0 +1,225 @@
+.contact {
+  overflow-x: hidden;
+  padding-top: 150px;
+  background-color: rgb(27, 27, 27);
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 0.4fr 4fr 0.4fr;
+  grid-template-rows: 0.1fr 0.5fr 4fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". contact-title ."
+    ". . ."
+    ". form-contact ."
+    ". . .";
+}
+
+.contact-title {
+  width: 96%;
+  grid-area: contact-title;
+  color: azure;
+  border-bottom: 1px solid;
+}
+.form-contact {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "form info";
+  grid-area: form-contact;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 0.1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    "form-data ."
+    ". .";
+  grid-area: form;
+}
+.form-data {
+  grid-area: form-data;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.info {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". info-data"
+    ". .";
+  grid-area: info;
+}
+.info-data {
+  grid-area: info-data;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  color: azure;
+  padding-bottom: 50px;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+.icon-contact {
+  width: 40px;
+}
+
+.info-data button {
+  color: azure;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  align-self: start;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+}
+
+.text-input {
+  color: azure;
+}
+
+
+/* Mobile */
+@media (max-width: 968px) {
+  .contact {
+    padding-top: 150px;
+    background-color: rgb(27, 27, 27);
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "contact-title"
+      "."
+      "form-contact";
+  }
+
+  .contact-title {
+    width: 96%;
+    grid-area: contact-title;
+    color: azure;
+    border-bottom: 1px solid;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  .form-contact {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "form"
+      "info";
+    justify-self: center;
+    align-self: center;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "form-data"
+      ".";
+    grid-area: form;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .form-data {
+    grid-area: form-data;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    color: azure;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "info-data"
+      ".";
+    grid-area: info;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .info-data {
+    grid-area: info-data;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: azure;
+    text-align: center;
+  }
+
+  .text-link {
+    text-decoration: none;
+  }
+
+  .icon-contact {
+    width: 40px;
+  }
+
+  .info-data button {
+    margin-top: 50px;
+    color: azure;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    align-self: start;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+  }
+
+  .text-input {
+    color: azure;
+  }
+}

@@ -1,0 +1,196 @@
+/* Desktop */
+.header {
+  overflow-x: hidden;
+  height: 100vh;
+  max-width: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 0.5fr 4fr 0.5fr;
+  grid-template-rows: 0.2fr 4fr 0.2fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". portada ."
+    "bottom-bar bottom-bar bottom-bar";
+  background-image: url(../../assets/images/nikita-unsplash.png);
+  background-size: 100% 135%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+}
+
+.portada {
+  display: grid;
+  grid-template-columns: 0.1fr 4fr 0.1fr;
+  grid-template-rows: 0.5fr 4fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". title-box ."
+    ". . .";
+  grid-area: portada;
+}
+
+.title-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "title"
+    "button-box";
+  justify-self: start;
+  align-self: center;
+  grid-area: title-box;
+  color: azure;
+}
+
+.title {
+  justify-self: center;
+  align-self: center;
+  grid-area: title;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.button-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+  grid-area: button-box;
+}
+
+.button-box button {
+  width: 190px;
+}
+
+.bottom-bar {
+  padding-bottom: 10px;
+  height: 40px;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 0.1fr 1.5fr 0.1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". bar .";
+  grid-area: 3 / 1 / 4 / 4;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0px 18px;
+  justify-self: center;
+  align-self: center;
+  grid-area: 3 / 2 / 4 / 3;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.title-box h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+.title-box h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mobile */
+@media (max-width: 968px) {
+  .header {
+    height: 550px;
+    background-image: url(../../assets/images/unsplash-mobile.png);
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "portada"
+      "bottom-bar";
+    background-size: cover;
+    background-position: top;
+  }
+
+  .portada {
+    margin-top: 100px;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 0.5fr auto 0.5fr;
+    justify-content: center;
+  }
+
+  .title-box {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .button-box {
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px 0px;
+    grid-template-areas:
+      "button"
+      "button";
+  }
+
+  .button-link{
+    font-size: 0.8rem;
+  }
+
+  .bottom-bar {
+    display: none;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .bar {
+    grid-area: 1 / 2 / 2 / 3;
+    justify-content: start;
+    align-content: center;
+  }
+
+  .title-box h1 {
+    font-size: 2rem;
+  }
+
+  .title-box h2 {
+    font-size: 1.8rem;
+  }
+}
+
+

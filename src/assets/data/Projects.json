@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Don Remolo",
+    "class": "Food Delivery",
+    "type": "Web App",
+    "img": "https://i.ibb.co/jRtc6sg/don-remolo-pizza.png",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Framer Motion - Firebase",
+    "code": "https://github.com/emanuelpps/don-remolo-pizza",
+    "demo": "https://emanuelpps.github.io/don-remolo-pizza/"
+  },
+  {
+    "name": "EP Weather",
+    "class": "Weather Information",
+    "type": "Web App",
+    "img": "https://i.ibb.co/YLJgj7j/weather-EP.jpg",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Fetch API",
+    "code": "https://github.com/emanuelpps/EP-WeatherAPP",
+    "demo": "https://emanuelpps.github.io/EP-WeatherAPP/"
+  },
+  {
+    "name": "To Do List",
+    "class": "Tasks List",
+    "type": "Web App",
+    "img": "https://i.ibb.co/VtYkSXk/todolist.jpg",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap",
+    "code": "https://github.com/emanuelpps/todoListEP",
+    "demo": "https://emanuelpps.github.io/todoListEP/"
+  },
+  {
+    "name": "Ñire",
+    "class": "Bakery",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/zrhNT86/nire.png",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Framer Motion",
+    "code": "https://github.com/emanuelpps/Nire-Panaderia",
+    "demo": "https://emanuelpps.github.io/Nire-Panaderia/"
+  },
+  {
+    "name": "Embé Home & Deco",
+    "class": "Ecommerce",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/xmh3xVn/Embe-ecommerce.png",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Firebase",
+    "code": "https://github.com/emanuelpps/embe-ecommerce",
+    "demo": "https://emanuelpps.github.io/embe-ecommerce/"
+  },
+  {
+    "name": "Falcon Aviation Shop",
+    "class": "Ecommerce",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/603QLSd/falcon-aviation-shop.png",
+    "lenguage": "HTML 5 - CSS 3 - Javascript - Bootstrap",
+    "code": "https://github.com/emanuelpps/Falcon-Aviation-Shop",
+    "demo": "https://emanuelpps.github.io/Falcon-Aviation-Shop/"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "class": "Game",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/RvGC5Gb/tic-tac-toe.jpg",
+    "lenguage": "HTML 5 - CSS 3 - JavaScript",
+    "code": "https://github.com/emanuelpps/Tic-Tac-Toe",
+    "demo": "https://emanuelpps.github.io/Tic-Tac-Toe/"
+  },
+  {
+    "name": "Laboratio Beitía",
+    "class": "Clinical Laboratory",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/94Pj1Tf/laboratioribeitia.jpg",
+    "lenguage": "Wordpress - Elementor",
+    "demo": "https://laboratoriobeitia.com.ar/"
+  },
+  {
+    "name": "TGL Obras",
+    "class": "Building Contractor",
+    "type": "Web Page",
+    "img": "https://i.ibb.co/nmxLf1m/tglobras.jpg",
+    "lenguage": "Wordpress - Elementor",
+    "demo": "https://tglobras.com.ar/"
+  }
+]
