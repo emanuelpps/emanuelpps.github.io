@@ -13,12 +13,16 @@ export default function Header() {
             <h2 className="text-truncate">Front-End Developer</h2>
           </div>
           <div className="button-box">
-            <button type="button" class="btn btn-outline-light">
-              <HashLink className="button-link" to="#contactId">Contact</HashLink>
-            </button>
-            <button type="button" class="btn btn-outline-light">
-              <HashLink className="button-link"  to="#AboutMe">More About Me</HashLink>
-            </button>
+            <HashLink className="button-link" to="#contactId">
+              <button type="button" class="btn btn-outline-light">
+                Contact
+              </button>
+            </HashLink>
+            <HashLink className="button-link" to="#AboutMe">
+              <button type="button" class="btn btn-outline-light">
+                More About Me
+              </button>
+            </HashLink>
           </div>
         </div>
       </div>
