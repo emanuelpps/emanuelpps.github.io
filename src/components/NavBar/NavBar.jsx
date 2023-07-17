@@ -81,7 +81,7 @@ export default function NavBar() {
                 </HashLink>
               </li>
             </ul>
-            <Popover isOpen={isPopoverOpen} positions={["bottom"]} content={<div className="popover text-center">Mail Copiado!</div>}>
+            <Popover isOpen={isPopoverOpen} positions={["bottom"]} content={<div className="popover text-center">Copied!</div>}>
               <button
                 id="Mail"
                 onClick={() => getMailCopy()}

@@ -171,7 +171,7 @@ export default function Contact() {
             <Popover
               isOpen={isPopoverOpen}
               positions={["bottom"]}
-              content={<div className="popover text-center">Mail Copiado!</div>}
+              content={<div className="popover text-center">Copied!</div>}
             >
               <button id="Mail" onClick={() => getMailCopy()}>
                 <div className="icon-contact">
