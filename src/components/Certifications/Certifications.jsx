@@ -119,7 +119,7 @@ export default function Certifications() {
             >
               <MdWorkspacePremium className="icon-premium" />
               <h6>Agile</h6>
-              <h6>methodology</h6>
+              <h6>Methodology</h6>
             </Link>
           </div>
         </div>
