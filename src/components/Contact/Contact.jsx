@@ -102,46 +102,37 @@ export default function Contact() {
       </div>
       <div ref={ref} className="form-contact">
         <motion.div animate={animation} className="form">
-          <form className="form-data" onSubmit={sendEmail}>
-            <Form.Group className="mb-5" controlId="exampleForm.ControlInput1">
-              <Form.Label
-                for="from_name"
-                className="text-input"
-                name="from_name"
-                id="from_name"
-                required
-              >
-                Name
-              </Form.Label>
-              <Form.Control type="email" placeholder="name" />
-            </Form.Group>
-            <Form.Group className="mb-5" controlId="exampleForm.ControlInput1">
-              <Form.Label
-                type="email"
-                name="reply_to"
-                id="reply_to"
-                className="text-input"
-                for="reply_to"
-                required
-              >
-                Email address
-              </Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group
-              className="mb-5"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Label
-                for="message"
-                className="text-input"
-                name="message"
-                id="message"
-              >
-                Message
-              </Form.Label>
-              <Form.Control as="textarea" rows={6} />
-            </Form.Group>
+          <form className="form-data needs-validation" onSubmit={sendEmail}>
+          <div class="form-group   text-input">
+            <label for="from_name">Name</label>
+            <input
+              type="text"
+              class="form-control mb-4"
+              name="from_name"
+              id="from_name"
+              required
+            />
+          </div>
+          <div class="form-group text-input">
+            <label for="reply_to">Email</label>
+            <input
+              type="email"
+              class="form-control mb-4"
+              name="reply_to"
+              id="reply_to"
+              required
+            />
+          </div>
+          <div class="form-group text-input">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control mb-4"
+              name="message"
+              id="message"
+              rows="6"
+              required
+            ></textarea>
+          </div>
             <button class="btn btn-outline-light" type="submit">
               Send
             </button>
