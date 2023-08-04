@@ -16,12 +16,12 @@
 }
 .about-skills {
   display: grid;
-  grid-template-columns: 0.1fr repeat(2, 1fr) 0.1fr;
+  grid-template-columns:1fr 0.1fr 0.1fr  1fr ;
   grid-template-rows: 0.1fr 4fr 0.1fr;
   gap: 0px 0px;
   grid-template-areas:
     ". . . ."
-    ". about-me skills ."
+    "about-me . . skills "
     ". . . .";
   grid-area: about-skills;
   align-self: center;
@@ -34,7 +34,7 @@
   color: azure;
   grid-area: about-me;
   display: grid;
-  grid-template-columns: 0.5fr 5fr 0.5fr;
+  grid-template-columns: 0.5fr 5fr 0.1fr;
   grid-template-rows: 0.5fr 2fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
@@ -63,7 +63,7 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.1fr;
   grid-template-rows: 0.5fr 2fr 0.5fr;
-  gap: 0px 10px;
+  gap: 0px 0px;
   grid-template-areas:
     ". icon-title ."
     ". icon-box ."
@@ -79,7 +79,6 @@
   grid-area: icon-title;
   border-bottom: 1px solid;
 }
-
 
 .icon-box {
   display: grid;
@@ -105,7 +104,53 @@
   gap: 10px;
 }
 
+/*1200*/
+@media (max-width: 1200px) {
+  .about {
+    overflow: hidden;
+    height: auto;
+    grid-template-columns: 0.1fr 4fr 0.1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+  }
+  .about-skills {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 0.1fr repeat(2, 1fr) 0.1fr;
+    grid-template-rows: 0.1fr 2fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". about-me about-me ."
+      ". skills skills .";
+    grid-area: about-skills;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+  }
+  .about-me {
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+  }
 
+  .skills {
+    width: 100%;
+    grid-area: skills;
+    color: azure;
+    display: grid;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". icon-title ."
+      ". icon-box ."
+      ". . .";
+    grid-area: skills;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+  }
+}
 
 /**/
 /* Mobile */
@@ -172,7 +217,7 @@
       "icon-title"
       "icon-box";
   }
-  
+
   .icon-title {
     width: 96%;
     display: grid;
@@ -184,10 +229,9 @@
     align-content: center;
     align-content: center;
     justify-content: center;
-    grid-template-areas:
-      ".";
+    grid-template-areas: ".";
   }
-  
+
   .skills-title {
     grid-area: skills-title;
     width: 100%;
@@ -196,7 +240,7 @@
     grid-area: project-title;
     text-align: center;
   }
-  
+
   .icon-box {
     overflow-x: hidden;
     display: grid;
@@ -213,5 +257,4 @@
       ". . ."
       ". . .";
   }
-  
-  }
+}
