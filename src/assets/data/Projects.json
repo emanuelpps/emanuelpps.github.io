@@ -25,6 +25,14 @@
     "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Fetch API",
     "code": "https://github.com/emanuelpps/EP-WeatherAPP",
     "demo": "https://emanuelpps.github.io/EP-WeatherAPP/"
+  },  {
+    "name": "EP Converter",
+    "class": "Currency Converter",
+    "type": "Web App",
+    "img": "https://i.ibb.co/gTbmDGW/ep-converter.png",
+    "lenguage": "SASS - HTML 5 - React Js - Bootstrap - Fetch API",
+    "code": "https://github.com/emanuelpps/ep-currency-converter",
+    "demo": "https://emanuelpps.github.io/ep-currency-converter/"
   },
   {
     "name": "To Do List",
@@ -69,13 +77,5 @@
     "img": "https://i.ibb.co/94Pj1Tf/laboratioribeitia.jpg",
     "lenguage": "Wordpress - Elementor",
     "demo": "https://laboratoriobeitia.com.ar/"
-  },
-  {
-    "name": "TGL Obras",
-    "class": "Building Contractor",
-    "type": "Web Page",
-    "img": "https://i.ibb.co/nmxLf1m/tglobras.jpg",
-    "lenguage": "Wordpress - Elementor",
-    "demo": "https://tglobras.com.ar/"
   }
 ]
