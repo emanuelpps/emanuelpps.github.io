@@ -33,7 +33,6 @@ export default function Certifications() {
           <h3 className="certTitle">Certifications</h3>
         </div>
         <div className="certification-icon">
-          <p className="process-text">In process...</p>
           <div className="certIcons">
             <Link
               className="icon-certifications-link"
@@ -114,7 +113,7 @@ export default function Certifications() {
             </Link>
             <Link
               className="icon-certifications-link"
-              to={"https://i.ibb.co/qnjVPB8/Certificado-Metodolog-as-giles.jpg"}
+              to={"https://www.coderhouse.com/certificados/64ff6194627603e5a86e41e6?lang=es"}
               target="_blank"
             >
               <MdWorkspacePremium className="icon-premium" />
