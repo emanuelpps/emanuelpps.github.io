@@ -1,5 +1,14 @@
 [
   {
+    "name": "HomeFix",
+    "class": "Inventory Manager",
+    "type": "Web App",
+    "img": "https://i.ibb.co/h8DQTqF/Captura-de-pantalla-2023-08-24-082459.png",
+    "lenguage": "HTML 5 - CSS 3 - React Js - Bootstrap - Redux Toolkit - Axios - ReCharts",
+    "code": "https://github.com/No-Country/c13-33-t-csharp",
+    "demo": "https://homefixapp.vercel.app/"
+  },
+  {
     "name": "EP Music Player",
     "class": "Music Player",
     "type": "Web App",
@@ -69,13 +78,5 @@
     "lenguage": "HTML 5 - CSS 3 - Javascript - Bootstrap",
     "code": "https://github.com/emanuelpps/Falcon-Aviation-Shop",
     "demo": "https://emanuelpps.github.io/Falcon-Aviation-Shop/"
-  },
-  {
-    "name": "Laboratio Beitía",
-    "class": "Clinical Laboratory",
-    "type": "Web Page",
-    "img": "https://i.ibb.co/94Pj1Tf/laboratioribeitia.jpg",
-    "lenguage": "Wordpress - Elementor",
-    "demo": "https://laboratoriobeitia.com.ar/"
   }
 ]
